@@ -1,8 +1,8 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
-st.markdown("# Main page 🎈")
-x="Welcome to this great learning, all those interested to learn Python,  Machine learning"
+import pandas as pd
+st.markdown("#  Free Training for those all who interested#🎈")
+x="Welcome all those interested to learn Python, Rstudio, Machine learning"
 st.sidebar.markdown(x)
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, "Select your best contast level" ,x * x)
@@ -23,7 +23,9 @@ df = pd.DataFrame({
   'name of cl':["abe","kabe","alem", "Andu"],
   'Age': [10, 20, 30, 40],
   'Acyear':[2020, 2022, 2021, 2023],
-  'CGPA':[3.6, 4.0, 3.6, 3.8]
+  'CGPA':[3.6, 4.0, 3.6, 3.8],
+  'BPlace': ["hawasa", "AA","XX", "hs"],
+  'gender': ["m","f","m","f"]
 })
 df
 option = st.selectbox(
@@ -42,3 +44,35 @@ option = st.selectbox(
      df['CGPA'])
 
 'you selected:', option
+option = st.selectbox(
+    'cgpa',
+     df['gender'])
+
+'you selected gender:', option
+
+st.write("Are you ready to learn?")
+st.write("would you tell me your address?")
+st.write("Are you from ethiopia?")
+
+
+st.write("my forloop")
+for i in range(5):
+	st.write(i)
+
+st.write("my while")
+	
+count=5
+
+while  count<10:
+	st.write(count)
+	count +=1
+
+x=12
+
+if x>20:
+
+ st.write("you are old")
+
+else:
+
+ st.write("you are child")
