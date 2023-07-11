@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 st.markdown("# Main page 🎈")
 x="Welcome to this great learning, all those interested to learn Python,  Machine learning"
 st.sidebar.markdown(x)
