@@ -1,6 +1,6 @@
 import streamlit as st
 st.markdown("# Main page 🎈")
-x="Welcome all those interested to learn Python,  Machine learning"
+x="Welcome to this great learning, all those interested to learn Python,  Machine learning"
 st.sidebar.markdown(x)
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, "Select your best contast level" ,x * x)
