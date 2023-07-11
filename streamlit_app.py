@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pydataset import data
+from pydatasets import data
 
 st.title('🎈 pydataset')
 
