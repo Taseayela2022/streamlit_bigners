@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-st.markdown("#  Free Training for those all who interested in Learning python#🎈")
+st.markdown("#  Free Training for those all who interested in Learning python and r#🎈")
 x="Welcome all those interested to learn Python, Rstudio, Machine learning"
 st.sidebar.markdown(x)
 x = st.slider('x')  # 👈 this is a widget
